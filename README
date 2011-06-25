@@ -1,13 +1,7 @@
+Andrew Miller <amiller@dappervision.com>
 Brandyn A. White <bwhite@dappervision.com>
 
-Requires: PIL and web.py
+Requires: bottle and gevent
 
 Usage:
-- Go into a directory with lots of images
-- python -m image_server --port=<port>
-
-
-Usage (for selecting images to move to a folder):
-- Go into a directory with lots of images
-- Choose a directory into which to move selected images
-- python -m image_server --port=<port> --movedir=<move dir>
+- python -m static_server 8080
